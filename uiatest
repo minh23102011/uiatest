@@ -1,1 +1,4 @@
+a = input("mời bạn nhập mk : "
+if a = minhgay:
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minh23102011/UIA_hub/915f869e2485121cdbdc8a0f284046d4143fac2f/UIA_hub"))()
