@@ -1,2 +1,18 @@
+-- Danh sách HWID hợp lệ bạn có thể tùy chỉnh
+local allowedHWIDs = {
+    ["4C4C4544-0032-5110-8042-C3C04F594258"] = true
+}
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minh23102011/UIA_hub/915f869e2485121cdbdc8a0f284046d4143fac2f/UIA_hub"))()
+-- Lấy HWID từ exploit
+local hwid = gethwid and gethwid() or "Unknown HWID"
+
+print("HWID của bạn là:", hwid)
+
+-- Kiểm tra
+if allowedHWIDs[hwid] then
+    print("✅ HWID hợp lệ. Đang chạy script...")
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/minh23102011/UIA_hub/refs/heads/main/UIA_hub"))()
+else
+    warn("❌ HWID không hợp lệ. Script sẽ không chạy.")
+end
