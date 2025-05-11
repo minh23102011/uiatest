@@ -1,5 +1,5 @@
 -- Đặt mật khẩu
-local correctPassword = "your_password_here"
+local correctPassword = "nguyencongnghiascripthackbf"
 
 -- Yêu cầu người dùng nhập mật khẩu
 print("Nhập mật khẩu:")
