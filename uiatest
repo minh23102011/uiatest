@@ -1,13 +1,1 @@
--- Đặt mật khẩu
-local correctPassword = "nguyencongnghiascripthackbf"
-
--- Yêu cầu người dùng nhập mật khẩu
-print("Nhập mật khẩu:")
-local inputPassword = io.read()
-
--- Kiểm tra mật khẩu và chạy đoạn mã nếu đúng
-if inputPassword == correctPassword then
-    -- Đoạn mã sẽ chạy nếu mật khẩu đúng
-    print("Mật khẩu đúng! Đang chạy đoạn mã...")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/minh23102011/UIA_hub/915f869e2485121cdbdc8a0f284046d4143fac2f/UIA_hub"))()
-end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minh23102011/UIA_hub/915f869e2485121cdbdc8a0f284046d4143fac2f/UIA_hub"))()
