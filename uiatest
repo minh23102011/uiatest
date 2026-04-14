@@ -1,3 +1,4 @@
+loadstring(game:HttpGet(" https://raw.githubusercontent.com/minh23102011/rb1/refs/heads/main/bnnbounty"))()
 repeat task.wait() until game:IsLoaded()
 
 local TweenService = game:GetService("TweenService")
